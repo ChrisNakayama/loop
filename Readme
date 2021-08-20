@@ -1,0 +1,16 @@
+Describe: Convert 1 to Beep
+Test: "It should convert 1 to "Beep!"
+"The 1 gray cat".replace(/1/, "Beep!");
+
+Describe: Convert 2 to Boop
+Test: "It should convert 2 to "Boop!"
+"The 2 gray cats".replace(/2/, "Boop!");
+
+const string = "Replace every 1!";
+string.replace(/[1]/, "Beep!");
+
+const string = "Replace every 2!";
+string.replace(/[2]/, "Boop!");
+
+const string = "Replace every 3!";
+string.replace(/[3]/, "Won't you be my neighbor!");
