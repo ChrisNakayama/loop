@@ -38,3 +38,8 @@ console.log(rangeOfNumbers(0,12).join());
 Describe: Boop Beep 
 Test: "It should change the number 13 to "Wont you be my neighbor?" and the number 32 to "Won't you be my Neighbor?" and
 It works
+
+
+
+Put a input point for numbers on the page and input two numbers with a comma in between
+tie this to run the equation and spit out the answers based on the above code.
