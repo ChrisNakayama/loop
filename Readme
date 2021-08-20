@@ -1,16 +1,40 @@
-Describe: Convert 1 to Beep
-Test: "It should convert 1 to "Beep!"
-"The 1 gray cat".replace(/1/, "Beep!");
+function rangeOfNumbers(start,end) {
+  let rangeArray = [];
+  for (let i = start; i <= end; i++) {
+    rangeArray.push(i + "");
+  }
+  return rangeArray.map(x => x.includes("2") ? "Boop!" : x.includes("1") ? "Beep" : x);
 
-Describe: Convert 2 to Boop
-Test: "It should convert 2 to "Boop!"
-"The 2 gray cats".replace(/2/, "Boop!");
+}
+console.log(rangeOfNumbers(0,12).join());
+Describe: Boop Beep
+Test: "It should change any number with 2 to "BOOP" and any number with a 1 to "BEEP"
+It works
 
-const string = "Replace every 1!";
-string.replace(/[1]/, "Beep!");
 
-const string = "Replace every 2!";
-string.replace(/[2]/, "Boop!");
+function rangeOfNumbersFour(start,end) {
+  let rangeArray = [];
+  for (let i = start; i <= end; i++) {
+    rangeArray.push(i + "");
+  }
+  return rangeArray.map(x => x.includes("3") ? "Wont you be my Neighbor?" : x.includes("21") ? "Boop" : x);
 
-const string = "Replace every 3!";
-string.replace(/[3]/, "Won't you be my neighbor!");
+}
+console.log(rangeOfNumbers(0,12).join());
+Describe: Boop Beep
+Test: "It should change any number with 3 to "Won't you be my Neighbor?" and the number 21 to "Boop"
+It works
+
+
+function rangeOfNumbersFive(start,end) {
+  let rangeArray = [];
+  for (let i = start; i <= end; i++) {
+    rangeArray.push(i + "");
+  }
+  return rangeArray.map(x => x.includes("13") ? "Won't you be my Neighbor?" : x.includes("32") ? "Won't you be my Neighbor?" : x);
+
+}
+console.log(rangeOfNumbers(0,12).join());
+Describe: Boop Beep 
+Test: "It should change the number 13 to "Wont you be my neighbor?" and the number 32 to "Won't you be my Neighbor?" and
+It works

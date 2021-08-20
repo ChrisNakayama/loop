@@ -1,1 +1,32 @@
-"The 1 gray cat".replace(/1/, "Beep!");
+
+
+
+function rangeOfNumbers(start,end) {
+  let rangeArray = [];
+  for (let i = start; i <= end; i++) {
+    rangeArray.push(i + "");
+  }
+  return rangeArray.map(x => x.includes("2") ? "Boop!" : x.includes("1") ? "Beep" : x);
+
+}
+console.log(rangeOfNumbers(0,12).join());
+
+function rangeOfNumbersFour(start,end) {
+  let rangeArray = [];
+  for (let i = start; i <= end; i++) {
+    rangeArray.push(i + "");
+  }
+  return rangeArray.map(x => x.includes("3") ? "Wont you be my Neighbor?" : x.includes("21") ? "Boop" : x);
+
+}
+console.log(rangeOfNumbers(0,12).join());
+
+function rangeOfNumbersFive(start,end) {
+  let rangeArray = [];
+  for (let i = start; i <= end; i++) {
+    rangeArray.push(i + "");
+  }
+  return rangeArray.map(x => x.includes("13") ? "Won't you be my Neighbor?" : x.includes("32") ? "Won't you be my Neighbor?" : x);
+
+}
+console.log(rangeOfNumbers(0,12).join());
