@@ -30,3 +30,11 @@ function rangeOfNumbersFive(start,end) {
 
 }
 console.log(rangeOfNumbers(0,12).join());
+
+const 1 = "Beep!";
+const 2 = "Boop!";
+const 3 = "Won't you be my neighbor?";
+const 13 = "Won't you be my neighbor?";
+const 21 = "Boop."
+const 32 = "Won't you be my neighbor?";
+
