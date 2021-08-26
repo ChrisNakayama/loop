@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-  <title>Bleep Bloop</title>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/scripts.js"></script>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <title>BEEP</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Counting is fun</h1>
+        <p>Counting tool for your amusement</p>
+      </div>
+      <div id="main">
+        <div class="intro">
+          <h3>Hi Friend!</h3>
+          <p>The computer knows how to count and do special things</p>
+          <p>It is a simple counting application!</p>
+        </div>
+        <div class="instructions">
+          <h4>Very simple instructions:</h4>
+          <p>Count along!</p>
+          <h5>Step 1: Enter a number!</h5>
+          <h5>Step 2: Click the "Counting is fun!" button!</h5>
+        </div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="number">Enter a number:</label>
+            <input type="number" id="number" class="form-control">
+          </div>
 
-</head>
+          <button type="submit" name="btn">Counting is fun!</button>
+        </form>
+     </div>
+      <div id="output">
+        <h3>Here are your numbers!</h3>
+        <div id="numbers-output">
+          <ul class="unstyled">
 
-<h1>Input two numbers</h1>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
