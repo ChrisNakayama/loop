@@ -24,16 +24,16 @@ $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     event.preventDefault();
     var numberInput = parseInt($("input#number").val());
-    let result = beep(numberInput);
+    let results = beep(numberInput);
     $(".unstyled").text("");
     
-    result.forEach(outputList);
+    results.forEach(outputList);
 
     function outputList(result) {
       $(".unstyled").append(result);
     };
     
-    $("output").show(): this
+    $("#output").show(); 
 
   });
 });    
