@@ -1,48 +1,45 @@
-function rangeOfNumbers(start,end) {
-  let rangeArray = [];
-  for (let i = start; i <= end; i++) {
-    rangeArray.push(i + "");
-  }
-  return rangeArray.map(x => x.includes("2") ? "Boop!" : x.includes("1") ? "Beep" : x);
-
-}
-console.log(rangeOfNumbers(0,12).join());
-Describe: Boop Beep
-Test: "It should change any number with 2 to "BOOP" and any number with a 1 to "BEEP"
-It works
+Counter
 
 
-function rangeOfNumbersFour(start,end) {
-  let rangeArray = [];
-  for (let i = start; i <= end; i++) {
-    rangeArray.push(i + "");
-  }
-  return rangeArray.map(x => x.includes("3") ? "Wont you be my Neighbor?" : x.includes("21") ? "Boop" : x);
+By Christopher Nakayama
 
-}
-console.log(rangeOfNumbers(0,12).join());
-Describe: Boop Beep
-Test: "It should change any number with 3 to "Won't you be my Neighbor?" and the number 21 to "Boop"
-It works
+Description
 
+This application is designed to take a number string from the user, parse the string into an integer/number datatype, generate an output counting from 0 through the given number and output each count into a list that is shown to the user after they hit submit. There are special rules, though. If the number includes a "1", "2", or "3", the application will return a message in place of that number.
 
-function rangeOfNumbersFive(start,end) {
-  let rangeArray = [];
-  for (let i = start; i <= end; i++) {
-    rangeArray.push(i + "");
-  }
-  return rangeArray.map(x => x.includes("13") ? "Won't you be my Neighbor?" : x.includes("32") ? "Won't you be my Neighbor?" : x);
+This application will:
 
-}
-console.log(rangeOfNumbers(0,12).join());
-Describe: Boop Beep 
-Test: "It should change the number 13 to "Wont you be my neighbor?" and the number 32 to "Won't you be my Neighbor?" and
-It works
+Input from user and parse it to an integer
+Input Example: "5"
+Output Example: 5
+Use for loop to push every number from 0 to the inputted number into an empty array
+Input Example: 5
+Output Example: [0, 1, 2, 3, 4, 5]
+Use a forEach function to change numbers that include 1, 2 or 3 to a sentence string.
+Input Example: [0, 1, 2, 3, 4, 5]
+Output Example: [0, "Beep!", "Boop", "Won't You Be My Neighbor, 4, 5"]
+Append each element to ul and show list to user upon submit.
+Clear list and provide new output upon every click of submit without need for page refresh.
+
+Setup/Installation Requirements
 
 
 
-Put a input point for numbers on the page and input two numbers with a comma in between
-tie this to run the equation and spit out the answers based on the above code.
-I have the equations that work and now I need to tie this together and make it functional
+Clone this github repository
+Open files in your text editor
+Edit script as necessary or simply drag index.html to your browser window to use the application as is
+Your text editor must be able to handle HTML, CSS and JavaScript.
 
-I am going to spend the weekend studying up to finish this and my other test.
+Known Bugs
+
+There are no known bugs with this ame browser.
+Support and contact details
+
+If you are expth any issues or questions, please contact me at cnakayam@gmail.com
+
+Technologies Used
+
+HTML, CSS and Javascript. The diractories used are Bootstrap.css for css and jQuery 3.6.0 for JavaScript.
+
+License
+MIT
