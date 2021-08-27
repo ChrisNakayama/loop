@@ -3,7 +3,7 @@ Counter
 
 By Christopher Nakayama
 
-Description
+Description:
 
 This application is designed to take a number string from the user, parse the string into an 
 integer/number datatype, generate an output counting from 0 through the given number and output 
@@ -29,21 +29,21 @@ Setup/Installation Requirements
 
 
 
-Clone this github repository
-Open files in your text editor
-Edit script as necessary or simply drag index.html to your browser window to use the application as is
+Clone this github repository.
+Open files in your text editor.
+Edit script as necessary or simply drag index.html to your browser window to use the application as is.
 Your text editor must be able to handle HTML, CSS and JavaScript.
 
-Known Bugs
+Known Bugs:
 
-There are no known bugs with this ame browser.
-Support and contact details
+There are no known bugs.
+Support and contact details:
 
-If you have any issues or questions, please contact me at cnakayam@gmail.com
+If you have any issues or questions, please contact me at cnakayam@gmail.com.
 
-Technologies Used
+Technologies Used:
 
 HTML, CSS and Javascript. The diractories used are Bootstrap.css for css and jQuery 3.6.0 for JavaScript.
 
-License
+License:
 MIT
