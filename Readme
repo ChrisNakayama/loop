@@ -5,7 +5,11 @@ By Christopher Nakayama
 
 Description
 
-This application is designed to take a number string from the user, parse the string into an integer/number datatype, generate an output counting from 0 through the given number and output each count into a list that is shown to the user after they hit submit. There are special rules, though. If the number includes a "1", "2", or "3", the application will return a message in place of that number.
+This application is designed to take a number string from the user, parse the string into an 
+integer/number datatype, generate an output counting from 0 through the given number and output 
+each count into a list that is shown to the user after they hit submit. There are special rules, 
+though. If the number includes a "1", "2", or "3", the application will return a message in place 
+of that number.
 
 This application will:
 
@@ -35,7 +39,7 @@ Known Bugs
 There are no known bugs with this ame browser.
 Support and contact details
 
-If you are expth any issues or questions, please contact me at cnakayam@gmail.com
+If you have any issues or questions, please contact me at cnakayam@gmail.com
 
 Technologies Used
 
